@@ -7,5 +7,18 @@
 
 import Foundation
 
-print("Hello, Ralph!")
+let array = [1, 2, 3, 4, 5, 6, 7]
+let target = 6
+
+\\ Linear Search
+
+for i in 0..<array.count {
+    let element = array[i]
+    if element == target {
+        print("\(target) is at index \(i)")
+    }
+}
+
+\\ Binary Search
+
 
